@@ -1,0 +1,98 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-03-05 13:22:10
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-03-21 21:35:13
+*/
+/*.box>div直接相邻*/
+*{
+	font-family: "宋体"
+}
+@charset "utf-8";
+body,ul,ol,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+img{border: none; vertical-align: top;}
+a{
+	text-decoration: none;
+font-family: "宋体"}
+strong{font-weight:normal;}/*清除加粗*/	
+em{font-style: normal;}/*清除斜体*/
+input{border:none;outline:none;}/*清除 聚焦*/
+textarea{resize: none;border:none;}/*清除右下角小尾巴*/
+
+
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+
+.gWidth{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.black{
+	color: #4C4C4C;
+}
+.gray{
+	color:#EDEEF0;
+}
+.qh{
+	color: #F8F8F8;
+}
+.org{
+	color: #FF8707;
+}
+.w112{
+	width: 112px;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.b{
+	font-weight: bold;
+}
+a{
+	font-size: 14px;
+}
+dl dd{
+	font-size: 12px;
+}
+span{
+	display: inline-block;
+}
+.sps{
+	background: url(../img/video.jpg) no-repeat center top;
+	width: 3px;
+	height: 3px;
+}
+.sb li .sps{
+	background: url(../img/video.jpg) no-repeat center top;
+	width: 16px;
+	height: 9px;
+}
+.spank1{
+	background: url(../img/kuai.jpg) no-repeat left center;
+}
+.video{
+	background: url(../img/video.jpg) no-repeat left center;
+
+}
+.ss{
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #FF8707;
+}
+.lie1 a:hover{
+	color: #FF8707; 
+}
+.lie2 a:hover{
+	color: #FF8707; 
+}
+
+
+		/*重置样式表  清除默认样式*/
+
+
